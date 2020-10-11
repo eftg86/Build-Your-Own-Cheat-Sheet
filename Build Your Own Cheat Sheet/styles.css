@@ -1,0 +1,28 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #323232;
+    color: #fcdab7;
+    text-align: center;
+}
+
+nav{
+    text-align: left;
+    font-size: 24px;
+}
+
+p{
+    font-size: 18px;
+}
+#vs{
+    height: 500px;
+}
+table, th, td{
+    border-color:#044343;
+    border-style:solid;
+    border-width:px;
+    text-align: left;
+}
+
+thead tr th{
+    text-align: center;
+}

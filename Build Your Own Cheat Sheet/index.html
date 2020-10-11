@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./styles.css" rel="stylesheet" type="text/css">
+        <title>Semantic HTML</title>
+    </head>
+    <body>
+        <header>
+            <h1>Semantic HTML</h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">What is semantic HTML?</a></li>
+                    <li><a href="#list">List of Semantic Elements</a></li>
+                    <li><a href="#benefit">Why Use Semantic Elements</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2 id="intro">What is semantic HTML?</h2>
+            <p>Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. Semantic HTML introduces elements that can tell developers exactly what the element does or where it’s placed based on the name of that element. </p>
+            <figure>
+                <img src="./images/code.png"/>
+                <figcaption>Example of Semantic and Non-Semantic HTML Code</figcaption>
+            </figure>
+            <h2 id="list">List List of Semantic Elements</h2>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Semantic Element<br></th>
+                    <th>Use</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>&lt;article&gt;</td>
+                    <td>Used for sectioning a content, often used interchangeably with &lt;section&gt;. An article is intended to be independently distributable or reusable.</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;aside&gt;</td>
+                    <td>This element is intended for content that is not part of the flow of the text in which it appears, however still related in some way. </td>
+                  </tr>
+                  <tr>
+                    <td>&lt;details&gt;</td>
+                    <td>Specify details that the user can open and close on demand</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;figcaption&gt;</td>
+                    <td>Adds a caption to an image. It's always a child of the figure tag.</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;figure&gt;</td>
+                    <td>Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;footer&gt;</td>
+                    <td>Located at the bottom of the page it usually contains metainformation, such as author details, legal information, and/or links to related information.</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;header&gt;</td>
+                    <td>The &lt;header&gt; element represents a container for introductory content or a set of navigational links. It can contain heading elements &lt;h1&gt; - &lt;h6&gt;, logo or icon, authorship information.</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;main&gt;</td>
+                    <td>The &lt;main&gt; tag specifies the main content of a document.</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;mark&gt;</td>
+                    <td>The &lt;mark&gt; tag defines text that should be marked or highlighted.</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;nav&gt;</td>
+                    <td>The &lt;nav&gt; tag defines a set of navigation links.</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;section&gt;</td>
+                    <td>The &lt;section&gt; tag defines a section in a document. A section is a thematic grouping of content.</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;summary&gt;</td>
+                    <td>The &lt;summary&gt; tag defines a visible heading for the &lt;details&gt; element. The heading can be clicked to view/hide the details. The &lt;summary&gt; element should be the first child element of the &lt;details&gt; element.</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;time&gt;</td>
+                    <td>The &lt;time&gt; tag defines a specific time (or datetime).</td>
+                  </tr>
+                </tbody>
+            </table>
+            <h2 id="benefit">Why Use Semantic HTML?</h2>
+            <p>Some of the benefits from writing semantic markup are as follows:</p>
+            <ul>
+                <li>Search engines will consider its contents as important keywords to influence the page's search rankings (see SEO)</li>
+                <li>Screen readers can use it as a signpost to help visually impaired users navigate a page</li>
+                <li>Finding blocks of meaningful code is significantly easier than searching though endless &lt;div&gt s with or without semantic or namespaced classes</li>
+                <li>Suggests to the developer the type of data that will be populated</li>
+                <li>Semantic naming mirrors proper custom element/component naming</li>
+            </ul>
+        </main>
+    </body>
+</html>
